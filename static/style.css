@@ -1,0 +1,57 @@
+main
+{
+    overflow-x: auto;
+    text-align: center;
+    background: transparent;
+}
+
+main img
+{
+    max-width: 100%;
+}
+
+main .form-control
+{
+    display: inline-block;
+    width: auto;
+}
+
+.custom-nav {
+    border: 0px;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.custom-window {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.container-channel {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20rem 100px;
+}
+
+#message-box, #file-selector {
+    align-self: center;
+}
+
+#message-box {
+    margin: 30px 20px 10px 30px;
+}
+
+#chat {
+    padding: 20px;
+}
+
+nav{
+    background-color: blue;
+}
+
+#theBigBox{
+    box-shadow: 24px 14px 90px -12px rgba(94,59,141,0.71);
+    -webkit-box-shadow: 24px 14px 90px -12px rgba(94,59,141,0.71);
+    -moz-box-shadow: 24px 14px 90px -12px rgba(94,59,141,0.71);
+}

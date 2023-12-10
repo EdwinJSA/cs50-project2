@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    ChatGPT - Noob
+{% endblock %}
+
+{% block content %}
+
+<h4>Ingresa tu Nombre</h4>
+<form action="/signin" method="POST">
+    <div class="form-group">
+        <input type="text" class="form-control" id="username" name="username" autofocus aria-describedby="userHelp">
+        <small id="userHelp" class="form-text text-muted">Este será tu Nickname</small>
+    </div>
+    <button class="btn btn-primary" type="submit">Ingresar</button>
+</form>
+
+{% endblock %}
